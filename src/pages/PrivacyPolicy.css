@@ -1,0 +1,125 @@
+/* ── Privacy Policy ── */
+.privacy {
+  padding: 3rem 0 6rem;
+  min-height: 80vh;
+}
+
+.privacy-inner {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin-bottom: 2.5rem;
+}
+
+.back-link:hover {
+  color: #6c63ff;
+}
+
+.privacy-header {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 2rem;
+}
+
+.privacy-app {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #6c63ff;
+  margin: 0 0 0.5rem;
+}
+
+.privacy-title {
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
+  font-weight: 900;
+  color: #fff;
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.5px;
+}
+
+.privacy-effective {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* Body */
+.privacy-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.privacy-section {
+  /* intentionally minimal */
+}
+
+.privacy-section-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.75rem;
+}
+
+.privacy-section h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 1.25rem 0 0.5rem;
+}
+
+.privacy-section p,
+.privacy-section address {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin: 0 0 0.75rem;
+}
+
+.privacy-section ul {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.privacy-section li {
+  margin-bottom: 0.4rem;
+}
+
+.privacy-section strong {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+}
+
+.inline-link {
+  color: #6c63ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.inline-link:hover {
+  color: #a78bfa;
+  text-decoration: underline;
+}
+
+.contact-block {
+  font-style: normal;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  line-height: 1.9;
+}
