@@ -1,0 +1,61 @@
+.acct-delete-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+
+.acct-delete-inner {
+  width: 100%;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #2980b9;
+  text-decoration: underline;
+  font-size: 1em;
+}
+
+.acct-delete-header {
+  margin-bottom: 18px;
+}
+
+.acct-delete-title {
+  color: #c0392b;
+  margin: 0 0 8px 0;
+  font-size: 2em;
+}
+
+.acct-delete-body {
+  margin-top: 10px;
+}
+
+.acct-delete-section {
+  margin-bottom: 24px;
+}
+
+.acct-delete-section-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.acct-delete-body ol {
+  margin-left: 20px;
+  margin-bottom: 18px;
+}
+
+.acct-delete-body li {
+  margin-bottom: 10px;
+  font-size: 1.08em;
+}
+
+.acct-delete-body a {
+  color: #2980b9;
+  text-decoration: underline;
+}
