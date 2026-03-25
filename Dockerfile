@@ -7,8 +7,9 @@ WORKDIR /app
 # Copy package.json and package-lock.json (if present)
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install
+
+# Install dependencies and serve
+RUN npm install && npm install serve
 
 # Copy the rest of the app
 COPY . .
@@ -19,5 +20,5 @@ RUN npm run build
 # Expose the port Vite will use (change if needed)
 EXPOSE 5000
 
-# Start the app (use preview for Vite production preview)
-CMD ["npm", "run", "preview", "--", "--port", "5000", "--host"]
+# Start the app with serve for production
+CMD ["npx", "serve", "-s", "dist", "-l", "5000"]
